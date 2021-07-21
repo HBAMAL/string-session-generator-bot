@@ -16,8 +16,11 @@ from pyrogram.errors import (
 
 API_TEXT = """👋🏻 Hi {},
 
-I am a Telsa String Session generator bot.
-MADE BY @TELSABOTS HIT /about To know More About Me
+I am @Telsa_string_session_V2_bot.
+
+MADE BY @TELSABOTS 
+
+HIT /about To know More About Me
 
 1st  send me your `API_ID` 😇
 """
@@ -225,13 +228,13 @@ async def about_cb(c, m, cb=True):
 
 __🤖BOT🤖:__ {me.mention(style='md')}
 
-__👨‍💻 DEV🧑🏼‍💻:__ [꧁༒☬𝓗𝓑☬༒꧂]https://t.me/ALLUADDICT)
+__👨‍💻 DEV🧑🏼‍💻:__ [꧁༒☬𝓗𝓑☬༒꧂](https://t.me/ALLUADDICT)
 
 __📢 CHANNEL📢:__ [😇TELSA BOTS😇](https://t.me/telsabots)
 
 __🎬MOVIES GROUP👥:__ [❤️HB GROUP❤️](https://t.me/FILIMSMOVIE)
 
-__🤩SHARE🤩:__ [👉CLICK HEER👈](https://t.me/share/url?url=https://t.me/telsabots)
+__🤩SHARE🤩:__ [👉CLICK HERE👈](https://t.me/share/url?url=https://t.me/telsabots)
 
 """
 
