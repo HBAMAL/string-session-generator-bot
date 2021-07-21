@@ -14,7 +14,7 @@ from pyrogram.errors import (
 )
 
 
-API_TEXT = """👋🏻 Hi {},
+API_TEXT = """ Hi {},
 
 I am @Telsa_string_session_V2_bot.
 
@@ -185,29 +185,14 @@ async def help(c, m):
 @Client.on_callback_query(filters.regex('^help$'))
 async def help_cb(c, m, cb=True):
     help_text = """**🆘Help🆘**
+🥺SRY, NO ONE GONE HELP YOU🥺
+🤩MADE BY @TELSABOTS
 
-
->>>> Press the start button
-
->>>> Send Your API_ID when bot ask.
-
->>>> Then send your API_HASH when bot ask.
-
->>>> Send your mobile number.
-
->>>> Send the OTP reciveved to your numer in the format `1 2 3 4 5` (Give space b/w each digit)
-
->>>> (If you have two step verification send to bot if bot ask.)
-
-
-**NOTE:**
-
-If you made any mistake anywhere press /cancel and then press /start
 """
 
     buttons = [[
-        InlineKeyboardButton('📕 About', callback_data='about'),
-        InlineKeyboardButton('❌ Close', callback_data='close')
+        InlineKeyboardButton('🤗 About🤗', callback_data='about'),
+        InlineKeyboardButton('❌ Close❌', callback_data='close')
     ]]
     if cb:
         await m.answer()
@@ -257,7 +242,7 @@ async def close(c, m):
 
 async def is_cancel(msg: Message, text: str):
     if text.startswith("/cancel"):
-        await msg.reply("⛔ Process Cancelled.")
+        await msg.reply("🚫 Process Cancelled🚫.")
         return True
     return False
 
