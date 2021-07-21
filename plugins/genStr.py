@@ -185,7 +185,7 @@ async def help(c, m):
 @Client.on_callback_query(filters.regex('^help$'))
 async def help_cb(c, m, cb=True):
     help_text = """**🆘Help🆘**
-🥺SRY, NO ONE GONE HELP YOU🥺
+🥺SRY,NO ONE GONE HELP YOU
 🤩MADE BY @TELSABOTS
 
 """
@@ -217,7 +217,7 @@ __👨‍💻 DEV🧑🏼‍💻:__ [꧁༒☬𝓗𝓑☬༒꧂](https://t.me/AL
 
 __📢 CHANNEL📢:__ [😇TELSA BOTS😇](https://t.me/telsabots)
 
-__🎬MOVIES GROUP👥:__ [❤️HB GROUP❤️](https://t.me/FILIMSMOVIE)
+__🎬MOVIES GROUP👥:__ [HBGROUP](https://t.me/FILIMSMOVIE)
 
 __🤩SHARE🤩:__ [👉CLICK HERE👈](https://t.me/share/url?url=https://t.me/telsabots)
 
